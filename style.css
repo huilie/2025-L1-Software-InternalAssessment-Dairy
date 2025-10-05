@@ -1,0 +1,139 @@
+/** head **/
+@font-face {
+    font-family: Comfortaa;
+    src: url(/font/Comfortaa/static/Comfortaa-Regular.ttf);
+}
+@font-face {
+    font-family: jackson;
+    src: url(/font/jackson-signature/Jackson\ Signature.ttf);
+}
+*{
+    font-family: Comfortaa;
+    /** background-image: linear-gradient(to left, #fcb0f3, #3d05dd);**/
+}
+:root{
+    --green_one: #
+    --green_two: 
+    --green_three: 
+    --green_four:
+
+}
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+/** nav **/
+
+
+.navbar{
+    background-color: rgb(0, 101, 0);
+    font-size: 25px;
+
+}
+.nav_tag_home{
+    margin-left: 40px;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0%;
+    margin: 0%;
+}
+li{
+    display: inline
+}
+li a {
+    text-decoration: none;
+    color: white;
+    line-height: 70px;
+}
+.nav_link{
+    padding: 20px;
+}
+nav ul li :hover{
+    background-color: chartreuse;
+    color: black;
+}
+
+/** hero_img **/
+.hero_img{
+    background-image: url("/Dairy-img/hero_img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    justify-content: center;
+
+    display: flex;
+    height: 550px;
+}
+.hero_topic{
+    font-size: 70px;
+	color: whitesmoke;
+    text-align: center;
+
+}
+
+
+/** topic **/
+
+.topic{
+    text-align: center;
+    position: fixed;
+    color:antiquewhite;
+    width: 100%;
+    padding: 20px;
+    font-size: 125px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+/** P **/
+p{
+    font-size: 25px;
+    line-height: 40px;
+}
+.p_topic{
+    margin-top: -9px;
+    font-size: 40px; 
+}
+.first_p{
+    margin-right: ;
+}
+.p_1{
+    margin-left: 47%;
+    margin-top: -400px;
+}
+.img-1{
+    height: 40%;
+    width: 40%;
+    margin-left: 3%;
+    margin-top: 100px;
+}
+.p_mid{
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 150px;
+}
+.img-2{
+    height: 30%;
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 100px;
+}
+.img-3{
+    height: 30%;
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 100px;
+}
+.p_2{
+    margin-left: 15%;
+    margin-top: 100px;
+}
+
+button{
+    font-size: 25px;
+    margin-left: 45%;
+    margin-top: 15%;
+    padding: 0.5%;
+}
