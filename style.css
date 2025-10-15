@@ -96,7 +96,15 @@ nav ul li :hover{
     text-align: center;
     margin-top: -1%;
 }
-
+.hero_img_development{
+    background-image: url("Dairy-img/pexels-matthiaszomer-422218.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    justify-content: center;
+    display: flex;
+    height: 550px;
+}
 
 /** topic **/
 
@@ -124,7 +132,7 @@ p{
     margin-top: -375px;
 }
 .mid_background{
-    background-color: antiquewhite;
+    background-color: rgb(234, 223, 209);
     padding: 30px;
 
 }
